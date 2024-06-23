@@ -1,0 +1,6 @@
+customer/node_modules
+products/node_modules
+shopping/node_modules
+
+.idea
+.vscode
