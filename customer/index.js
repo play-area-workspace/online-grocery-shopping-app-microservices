@@ -4,12 +4,12 @@ const app = express();
 
 app.use(express.json());
 
-app.use('/',(req,res,next)=>{
+app.use('/', (req, res, next) => {
 
-    return res.status(200).json({"msg":"Hello from Shopping"});
+    return res.status(200).json({"msg": "Hello from Customer"});
 })
 
-app.listen(8003,()=>{
+app.listen(8003, () => {
     console.log("Customer is Listening to port 8003")
 })
 
